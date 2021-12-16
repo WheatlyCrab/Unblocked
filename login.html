@@ -43,7 +43,8 @@ button {
         background-color: lightblue;  
     }   
 </style>
-<p id=¨demo¨>undefined</p>   
+<p id=¨demo¨></p>
+<p id=¨page¨></p>   
 </head>    
 <body>    
     <center> <h1> Login Form </h1> </center>   
@@ -53,7 +54,7 @@ button {
             <input type="text" placeholder="Enter Username" name="username" required>  
             <label>Password : </label>   
             <input type="password" placeholder="Enter Password" name="password" required>  
-            <button type="submit" onclick = ¨checkinput()¨ >Login</button>   
+            <button type="submit" onclick = "checkinput()" >Login</button>   
             <input type="checkbox" checked="checked"> Remember me   
             <button type="button" class="cancelbtn"> Cancel</button>   
             Forgot <a href="lms.lausd.net"> password? </a>   
@@ -63,14 +64,25 @@ button {
 
 <script>
 var Yaszu
+var Losoa
+var Eggies 
+var Oreo
+var Kingstone
+var Noodle 
+var Geo
+
+function swappage() {
+  const element = document.getElementById("page")
+  element.innerHTML = Hello
+}
 
 function checkinput() {
 if (username = Yaszu) {
   const element = document.getElementById("demo");
-element.innerHTML = "Lol";
+element.innerHTML = "username";
 } else {
   const element = document.getElementById("demo");
-element.innerHTML = "Help me";
+element.innerHTML = "username";
 }
 }
 
