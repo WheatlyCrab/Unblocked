@@ -49,3 +49,6 @@ body,html {
   p {
     color: rgb(255, 0, 0);
   }
+  img {
+    border-radius: 50%;
+  }
